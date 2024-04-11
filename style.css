@@ -1,0 +1,23 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;1,400&family=Roboto:wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")
+
+/* Importing all components file */
+@import url("components/avatar.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colours */
+body{
+	font-family: 'Lora', sans-serif;
+	background-color: rgb(240, 240, 240);
+}
+h1, h2, h3 {
+	font-family:Roboto, Helvetica, sans-serif;
+}
+
+.banner {
+  background-image: url('../../images/Gelato.png');
+  color: purple;
+  padding: 150px 0;
+}
